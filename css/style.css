@@ -1,33 +1,33 @@
 @charset "utf-8";
-body {
-  margin: 0;
-}
+
 .clearfix::after {
   content: "";
   display: block;
   clear: both;
 }
-.red--box {
+
+.header {
   width: 400px;
   height: 100px;
   background: red;
 }
-.green--box {
+
+.left {
   width: 150px;
   height: 250px;
   background: #00ff1e;
   float: left;
 }
-.blue--box {
+
+.right {
   width: 250px;
   height: 250px;
   background: #30f;
   float: left;
 }
 
-.yellow--box {
+.footer {
   width: 400px;
   height: 100px;
   background: #ffe600;
 }
-
