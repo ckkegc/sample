@@ -18,31 +18,30 @@
 }
 
 .container {
-  width: 140px;
-  height: 40px;
   background-color: #ffffff;
   position: absolute;
   top: 20px;
   right: 20px;
-  padding: 10px;
+  padding: 5px;
   display: flex;
-  justify-content: space-between;
 }
 
-.block {
+.purple-box {
   width: 40px;
   height: 40px;
   background-color: #a9004b;
+  margin: 5px;
 }
 
-.block1 {
+
+.gleen-box {
   width: 150px;
   height: 250px;
   background-color: #00ff51;
   float: left;
 }
 
-.block2 {
+.brown-box {
   width: 250px;
   height: 250px;
   background-color: #8c2727;
@@ -50,19 +49,23 @@
   position: relative;
 }
 
-.box {
+.blok {
   position: absolute;
   top: 40px;
   left: 40px;
 }
 
-.txt-box {
+.orenge-box {
   width: 140px;
   height: 40px;
   background-color: #ff863f;
-  margin-bottom: 10px;
   border: solid 5px #ffffff;
+
+  &:not(:last-child) {
+    margin-bottom: 10px
+  }
 }
+
 
 .footer {
   width: 400px;
